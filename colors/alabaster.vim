@@ -78,11 +78,11 @@ exe "hi! Visual"      "ctermfg=".s:none  "ctermbg=".s:cyan    "cterm=".s:none
 exe "hi! VisualNOS"   "ctermfg=".s:none  "ctermbg=".s:cyan    "cterm=".s:none
 exe "hi! NonText"     "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 
-exe "hi! Todo"        "ctermfg=".s:none  "ctermbg=".s:yellow  "cterm=".s:none
+exe "hi! Todo"        "ctermfg=".s:none  "ctermbg=".s:orange  "cterm=".s:none
 exe "hi! Underlined"  "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 exe "hi! Error"       "ctermfg=".s:black "ctermbg=".s:red     "cterm=".s:none
 exe "hi! ErrorMsg"    "ctermfg=".s:black "ctermbg=".s:red     "cterm=".s:none
-exe "hi! WarningMsg"  "ctermfg=".s:black "ctermbg=".s:yellow  "cterm=".s:none
+exe "hi! WarningMsg"  "ctermfg=".s:black "ctermbg=".s:orange  "cterm=".s:none
 exe "hi! Ignore"      "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 exe "hi! SpecialKey"  "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 
@@ -112,7 +112,7 @@ exe "hi! Label"           "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:non
 exe "hi! Operator"        "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 exe "hi! Keyword"         "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 exe "hi! Exception"       "ctermfg=".s:red   "ctermbg=".s:none    "cterm=".s:none
-exe "hi! Comment"         "ctermfg=".s:yellow  "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Comment"         "ctermfg=".s:orange  "ctermbg=".s:none  "cterm=".s:none
 
 exe "hi! Special"         "ctermfg=".s:darkgreen  "ctermbg=".s:none "cterm=".s:none
 exe "hi! SpecialChar"     "ctermfg=".s:darkgreen  "ctermbg=".s:none "cterm=".s:none
