@@ -1,7 +1,7 @@
 " Vim colorscheme
-" Author: Alexander Gudulin <alexander@gudulin.com>
-" Maintainer: Alexander Gudulin <alexander@gudulin.com>
-" Notes: Based on Alabaster BG theme by Nikita Prokopov https://github.com/tonsky/sublime-scheme-alabaster/
+" Author: Brian Tenggren <btenggren20@gmail.com>
+" Maintainer: Brian Tenggren <btenggren20@gmail.com>"
+" Notes: Based on Alabaster BG theme by Nikita Prokopov https://github.com/tonsky/sublime-scheme-alabaster/ and Alexander Gudulin's vim plugin
 
 set background=light
 
@@ -89,16 +89,16 @@ exe "hi! SpecialKey"  "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 " --------------------------------
 " Variable types
 " --------------------------------
-exe "hi! Constant"        "ctermfg=".s:none  "ctermbg=".s:none     "cterm=".s:none
-exe "hi! String"          "ctermfg=".s:none  "ctermbg=".s:green    "cterm=".s:none
-exe "hi! StringDelimiter" "ctermfg=".s:none  "ctermbg=".s:green    "cterm=".s:none
-exe "hi! Character"       "ctermfg=".s:none  "ctermbg=".s:magenta  "cterm=".s:none
-exe "hi! Number"          "ctermfg=".s:none  "ctermbg=".s:magenta  "cterm=".s:none
-exe "hi! Boolean"         "ctermfg=".s:none  "ctermbg=".s:magenta  "cterm=".s:none
-exe "hi! Float"           "ctermfg=".s:none  "ctermbg=".s:magenta  "cterm=".s:none
+exe "hi! Constant"        "ctermfg=".s:blue "ctermbg=".s:none     "cterm=".s:none
+exe "hi! String"          "ctermfg=".s:green  "ctermbg=".s:none    "cterm=".s:none
+exe "hi! StringDelimiter" "ctermfg=".s:green  "ctermbg=".s:none    "cterm=".s:none
+exe "hi! Character"       "ctermfg=".s:magenta  "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Number"          "ctermfg=".s:magenta  "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Boolean"         "ctermfg=".s:magenta  "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Float"           "ctermfg=".s:magenta  "ctermbg=".s:none  "cterm=".s:none
 
-exe "hi! Identifier"      "ctermfg=".s:none  "ctermbg=".s:blue     "cterm=".s:none
-exe "hi! Function"        "ctermfg=".s:none  "ctermbg=".s:blue     "cterm=".s:none
+exe "hi! Identifier"      "ctermfg=".s:blue  "ctermbg=".s:none" cterm=".s:none
+exe "hi! Function"        "ctermfg=".s:blue  "ctermbg=".s:none" cterm=".s:none
 
 
 
@@ -111,11 +111,11 @@ exe "hi! Repeat"          "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:non
 exe "hi! Label"           "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 exe "hi! Operator"        "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 exe "hi! Keyword"         "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
-exe "hi! Exception"       "ctermfg=".s:none  "ctermbg=".s:red     "cterm=".s:none
-exe "hi! Comment"         "ctermfg=".s:none  "ctermbg=".s:yellow  "cterm=".s:none
+exe "hi! Exception"       "ctermfg=".s:red   "ctermbg=".s:none    "cterm=".s:none
+exe "hi! Comment"         "ctermfg=".s:yellow  "ctermbg=".s:none  "cterm=".s:none
 
-exe "hi! Special"         "ctermfg=".s:none  "ctermbg=".s:darkgreen  "cterm=".s:none
-exe "hi! SpecialChar"     "ctermfg=".s:none  "ctermbg=".s:darkgreen  "cterm=".s:none
+exe "hi! Special"         "ctermfg=".s:darkgreen  "ctermbg=".s:none "cterm=".s:none
+exe "hi! SpecialChar"     "ctermfg=".s:darkgreen  "ctermbg=".s:none "cterm=".s:none
 exe "hi! Tag"             "ctermfg=".s:none  "ctermbg=".s:none       "cterm=".s:none
 exe "hi! Delimiter"       "ctermfg=".s:none  "ctermbg=".s:none       "cterm=".s:none
 exe "hi! SpecialComment"  "ctermfg=".s:none  "ctermbg=".s:none       "cterm=".s:none
@@ -159,7 +159,8 @@ exe "hi! SpellCap"        "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
 exe "hi! SpellLocal"      "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
 exe "hi! SpellRare"       "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
 
-exe "hi! jsVariableDef"   "ctermfg=".s:none  "ctermbg=".s:blue     "cterm=".s:none
-exe "hi! clojureKeyword"  "ctermfg=".s:none  "ctermbg=".s:magenta  "cterm=".s:none
+exe "hi! jsVariableDef"   "ctermfg=".s:blue  "ctermbg=".s:none "cterm=".s:none
+exe "hi! clojureKeyword"  "ctermfg=".s:magenta  "ctermbg=".s:none "cterm=".s:none
 exe "hi! clojureSpecial"  "ctermfg=".s:none  "ctermbg=".s:none     "cterm=".s:none
 exe "hi! clojureVarArg"   "ctermfg=".s:none  "ctermbg=".s:none     "cterm=".s:none
+
