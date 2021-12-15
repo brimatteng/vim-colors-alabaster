@@ -50,7 +50,7 @@ exe "hi! VertSplit"   "ctermfg=".s:none "ctermbg=".s:magenta "cterm=".s:none
 exe "hi! ColorColumn" "ctermfg=".s:none "ctermbg=".s:magenta "cterm=".s:none
 exe "hi! TabLine"     "ctermfg=".s:none "ctermbg=".s:magenta "cterm=".s:none
 exe "hi! TabLineFill" "ctermfg=".s:none "ctermbg=".s:magenta "cterm=".s:none
-exe "hi! TabLineSel"  "ctermfg=".s:none "ctermbg=".s:cyan    "cterm=".s:none
+exe "hi! TabLineSel"  "ctermfg=".s:none "ctermbg=".s:yellow  "cterm=".s:none
 
 " -------------------------------
 " - File Navigation / Searching -
