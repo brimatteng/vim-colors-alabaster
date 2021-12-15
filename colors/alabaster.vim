@@ -89,13 +89,13 @@ exe "hi! SpecialKey"  "ctermfg=".s:none  "ctermbg=".s:none    "cterm=".s:none
 " --------------------------------
 " Variable types
 " --------------------------------
-exe "hi! Constant"        "ctermfg=".s:blue "ctermbg=".s:none     "cterm=".s:none
-exe "hi! String"          "ctermfg=".s:green  "ctermbg=".s:none    "cterm=".s:none
-exe "hi! StringDelimiter" "ctermfg=".s:green  "ctermbg=".s:none    "cterm=".s:none
-exe "hi! Character"       "ctermfg=".s:magenta  "ctermbg=".s:none  "cterm=".s:none
-exe "hi! Number"          "ctermfg=".s:magenta  "ctermbg=".s:none  "cterm=".s:none
-exe "hi! Boolean"         "ctermfg=".s:magenta  "ctermbg=".s:none  "cterm=".s:none
-exe "hi! Float"           "ctermfg=".s:magenta  "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Constant"        "ctermfg=".s:blue      "ctermbg=".s:none  "cterm=".s:none
+exe "hi! String"          "ctermfg=".s:darkgreen "ctermbg=".s:none  "cterm=".s:none
+exe "hi! StringDelimiter" "ctermfg=".s:darkgreen "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Character"       "ctermfg=".s:magenta   "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Number"          "ctermfg=".s:magenta   "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Boolean"         "ctermfg=".s:magenta   "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Float"           "ctermfg=".s:magenta   "ctermbg=".s:none  "cterm=".s:none
 
 exe "hi! Identifier"      "ctermfg=".s:blue  "ctermbg=".s:none" cterm=".s:none
 exe "hi! Function"        "ctermfg=".s:blue  "ctermbg=".s:none" cterm=".s:none
