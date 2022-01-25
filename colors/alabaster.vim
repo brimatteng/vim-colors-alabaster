@@ -147,9 +147,9 @@ exe "hi! DiffText"        "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
 " Completion menu
 " --------------------------------
 exe "hi! Pmenu"           "ctermfg=".s:none  "ctermbg=".s:yellow "cterm=".s:none
-exe "hi! PmenuSel"        "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
-exe "hi! PmenuSbar"       "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
-exe "hi! PmenuThumb"      "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
+exe "hi! PmenuSel"        "ctermfg=".s:none  "ctermbg=".s:white  "cterm=".s:none
+exe "hi! PmenuSbar"       "ctermfg=".s:none  "ctermbg=".s:none   "cterm=".s:none
+exe "hi! PmenuThumb"      "ctermfg=".s:none  "ctermbg=".s:none   "cterm=".s:none
 
 " --------------------------------
 " Spelling
