@@ -146,7 +146,7 @@ exe "hi! DiffText"        "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
 " --------------------------------
 " Completion menu
 " --------------------------------
-exe "hi! Pmenu"           "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
+exe "hi! Pmenu"           "ctermfg=".s:none  "ctermbg=".s:yellow "cterm=".s:none
 exe "hi! PmenuSel"        "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
 exe "hi! PmenuSbar"       "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
 exe "hi! PmenuThumb"      "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
@@ -154,10 +154,10 @@ exe "hi! PmenuThumb"      "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
 " --------------------------------
 " Spelling
 " --------------------------------
-exe "hi! SpellBad"        "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
-exe "hi! SpellCap"        "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
-exe "hi! SpellLocal"      "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
-exe "hi! SpellRare"       "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
+exe "hi! SpellBad"        "ctermfg=".s:magenta "ctermbg=".s:none  "cterm=".s:none
+exe "hi! SpellCap"        "ctermfg=".s:none    "ctermbg=".s:none  "cterm=".s:none
+exe "hi! SpellLocal"      "ctermfg=".s:none    "ctermbg=".s:none  "cterm=".s:none
+exe "hi! SpellRare"       "ctermfg=".s:none    "ctermbg=".s:none  "cterm=".s:none
 
 exe "hi! jsVariableDef"   "ctermfg=".s:blue  "ctermbg=".s:none "cterm=".s:none
 exe "hi! clojureKeyword"  "ctermfg=".s:magenta  "ctermbg=".s:none "cterm=".s:none
